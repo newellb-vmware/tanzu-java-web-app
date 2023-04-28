@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class HelloController {
-	public static String message = "Greetings from DevOpsDays + Tanzu!";
+	public static String message = "Greetings from Teledyne + Tanzu!";
 
 	@RequestMapping("/")
 	public String index() {
